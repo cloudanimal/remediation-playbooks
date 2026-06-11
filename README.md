@@ -32,6 +32,15 @@ Every playbook follows the same structure — because a fix you can't validate o
 |---|---|
 | [chromium-update-enforcement](browsers/chromium-update-enforcement/) | Perpetually outdated Chrome/Edge (the finding that never stays fixed) |
 
+### CVE-specific
+
+| Playbook | CVE |
+|---|---|
+| [cve-2021-44228-log4shell](cves/cve-2021-44228-log4shell/) | Log4Shell — find log4j-core anywhere on disk, including nested in fat JARs |
+| [cve-2020-1472-zerologon](cves/cve-2020-1472-zerologon/) | Zerologon — DC enforcement state + legacy-device event audit |
+| [cve-2013-3900-winverifytrust](cves/cve-2013-3900-winverifytrust/) | The 13-year-old Authenticode finding that never dies (string-vs-DWORD trap included) |
+| [cve-2022-30190-follina](cves/cve-2022-30190-follina/) | MSDT handler removal — the compensating-control pattern |
+
 ### Briefings
 
 [`briefings/`](briefings/) — monthly Patch Tuesday triage notes, generated with my [patch-tuesday-analyzer](https://github.com/cloudanimal/patch-tuesday-analyzer).
