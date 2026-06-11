@@ -40,6 +40,13 @@ Every playbook follows the same structure — because a fix you can't validate o
 | [cve-2020-1472-zerologon](cves/cve-2020-1472-zerologon/) | Zerologon — DC enforcement state + legacy-device event audit |
 | [cve-2013-3900-winverifytrust](cves/cve-2013-3900-winverifytrust/) | The 13-year-old Authenticode finding that never dies (string-vs-DWORD trap included) |
 | [cve-2022-30190-follina](cves/cve-2022-30190-follina/) | MSDT handler removal — the compensating-control pattern |
+| [cve-2025-53779-badsuccessor](cves/cve-2025-53779-badsuccessor/) | BadSuccessor — OU CreateChild ACL audit (the permission nobody checks) |
+| [cve-2024-6387-regresshion](cves/cve-2024-6387-regresshion/) | regreSSHion — backport-aware version check + bridge mitigation |
+| [cve-2023-23397-outlook](cves/cve-2023-23397-outlook/) | Outlook NTLM leak — durable egress controls for the whole attack class |
+| [cve-2023-4966-citrixbleed](cves/cve-2023-4966-citrixbleed/) | Citrix Bleed — the patch-isn't-enough runbook (kill the sessions) |
+| [smbv1-removal-ms17-010](cves/smbv1-removal-ms17-010/) | EternalBlue class — two-phase SMBv1 removal with usage auditing |
+
+Also see **[CATALOG.md](CATALOG.md)** — the full map of CVEs with PowerShell-scriptable remediations, including planned playbooks.
 
 ### Briefings
 
